@@ -60,3 +60,49 @@ nav ul li {
     text-align: center;
     margin: 204px 267.5px 152px 267.5px;
 }
+
+/* action-section style */
+.action {
+    display: flex;
+}
+
+.action-part {
+    margin: 0px 159px 0px 141px;
+}
+
+.action-tile {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.action-subtile {
+    font-size: 24px;
+    font-weight: normal;
+}
+
+/* user-section style */
+
+.users-section{
+max-width: 1140px; max-height: 306px;
+margin: 0px 150px;
+background-color: #e4e7ff;
+text-align: center;
+padding: 50px 142px;
+}
+
+.user-section-list {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.list-title{
+    font-size: 70px;
+    font-weight: bold;
+    color: #4E47FF; 
+}
+
+.users-section-title {
+    font-size: 30px;
+    font-weight: bold;
+}
