@@ -63,7 +63,7 @@ nav ul li {
 
 /* action-section style */
 .action {
-    display: flex;
+    display: flex; margin: 100px 0;
 }
 
 .action-part {
@@ -140,4 +140,31 @@ background-color: #e4e7ff;
 text-align: center;
 padding: 50px 142px;
 border-radius: 10px;
+}
+
+/* footer style */
+footer {
+    margin: 107px 400px;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+footer ul li {
+    margin: 0 30px;
+}
+
+.footer-tile-para  {
+    text-align: center;
+}
+
+.footer-title { 
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    color: #4E47FF; 
+
 }
