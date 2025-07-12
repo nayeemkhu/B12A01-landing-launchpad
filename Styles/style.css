@@ -67,6 +67,15 @@ nav ul li {
 }
 
 .action-part {
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+}
+
+.action-img {
+    border-radius: 40px;
+}
+.action-part {
     margin: 0px 159px 0px 141px;
 }
 
