@@ -88,6 +88,7 @@ margin: 0px 150px;
 background-color: #e4e7ff;
 text-align: center;
 padding: 50px 142px;
+border-radius: 10px;
 }
 
 .user-section-list {
@@ -105,4 +106,38 @@ padding: 50px 142px;
 .users-section-title {
     font-size: 30px;
     font-weight: bold;
+}
+
+/* touch-section style */
+
+.touch-section {
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.touch-section-form {
+    width: 50%;
+}
+.touch-section input[type="text"], .touch-section input[type="email"], touch-section textarea {
+  height: 64px; 
+  border-radius: 5px; 
+  background-color: white;
+  display:block;
+  width: 100%;
+  padding: 5px 5px;
+  margin-bottom: 24px;
+  border: none;
+}
+
+.touch-section-title {
+    font-size: 70px;
+}
+
+.touch-section{
+max-width: 1140px; max-height: 306px;
+margin: 20px 150px;
+background-color: #e4e7ff;
+text-align: center;
+padding: 50px 142px;
+border-radius: 10px;
 }
